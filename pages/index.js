@@ -3,7 +3,6 @@ import Rating from '@mui/material/Rating';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
-import {motion} from 'framer-motion'
 
 export default function Home() {
   const [sideBarOpen, setSideBarOpen] = useState(true)
@@ -16,10 +15,12 @@ export default function Home() {
 
           {/* document */}
 
-          <div className="bg-gray-200/60 min-h-[700px] w-full mx-auto  max-w-6xl flex-grow lg:order-2 p-3 px-2 flex flex-col rounded-md lg:px-4 xl:px-5 ">
-            <h2 className='mb-3 lg:text-lg font-medium'>Notes Name</h2>
-            <div className='flex-grow w-full bg-white grid place-items-center rounded-md overflow-y-scroll '>
-              <p className='h-[1000px]'>Pdf Area</p>
+          <div className=" w-full mx-auto  max-w-6xl flex-grow lg:order-2 lg:overflow-y-scroll rounded-md ">
+            <div className='bg-gray-200/60 min-h-[700px] p-3 px-2 flex flex-col rounded-md xl:px-5 lg:px-4 '>
+              <h2 className='mb-3 lg:text-lg font-medium'>Notes Name</h2>
+              <div className=' w-full bg-white grid place-items-center rounded-md overflow-y-scroll '>
+                <p className='h-[1000px]'>Pdf Area</p>
+              </div>
             </div>
           </div>
 
