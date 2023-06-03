@@ -265,19 +265,19 @@ const Questions = () => {
 
                                         <li>
                                             <input type="radio" id="all_questions" name='category' value="" className="hidden peer" required="" />
-                                            <label htmlFor="all_questions" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer    hover:text-gray-600  peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-50 ">
+                                            <label htmlFor="all_questions" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer     peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-100 ">
                                                 All Questions
                                             </label>
                                         </li>
                                         <li>
                                             <input type="radio" id="answered" name='category' value="" className="hidden peer" required="" />
-                                            <label htmlFor="answered" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer    hover:text-gray-600  peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-50 ">
+                                            <label htmlFor="answered" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer     peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-100 ">
                                                 Answered
                                             </label>
                                         </li>
                                         <li>
                                             <input type="radio" id="unanswered" name='category' value="" className="hidden peer" required="" />
-                                            <label htmlFor="unanswered" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer    hover:text-gray-600  peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-50 ">
+                                            <label htmlFor="unanswered" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer     peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-100 ">
                                                 Unanswered
                                             </label>
                                         </li>
@@ -304,49 +304,49 @@ const Questions = () => {
 
                                         <li>
                                             <input type="checkbox" id="maths" value="" className="hidden peer" required="" />
-                                            <label htmlFor="maths" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer    hover:text-gray-600  peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-50 ">
+                                            <label htmlFor="maths" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer   peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-100 ">
                                                 Maths
                                             </label>
                                         </li>
                                         <li>
                                             <input type="checkbox" id="science" value="" className="hidden peer" required="" />
-                                            <label htmlFor="science" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer    hover:text-gray-600  peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-50 ">
+                                            <label htmlFor="science" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer   peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-100 ">
                                                 Science
                                             </label>
                                         </li>
                                         <li>
                                             <input type="checkbox" id="humanity" value="" className="hidden peer" required="" />
-                                            <label htmlFor="humanity" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer    hover:text-gray-600  peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-50 ">
+                                            <label htmlFor="humanity" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer   peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-100 ">
                                                 Humanity
                                             </label>
                                         </li>
                                         <li>
                                             <input type="checkbox" id="diploma" value="" className="hidden peer" required="" />
-                                            <label htmlFor="diploma" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer    hover:text-gray-600  peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-50 ">
+                                            <label htmlFor="diploma" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer     peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-100 ">
                                                 Diploma
                                             </label>
                                         </li>
                                         <li>
                                             <input type="checkbox" id="medical" value="" className="hidden peer" required="" />
-                                            <label htmlFor="medical" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer    hover:text-gray-600  peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-50 ">
+                                            <label htmlFor="medical" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer     peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-100 ">
                                                 Medical
                                             </label>
                                         </li>
                                         <li>
                                             <input type="checkbox" id="engineering" value="" className="hidden peer" required="" />
-                                            <label htmlFor="engineering" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer    hover:text-gray-600  peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-50 ">
+                                            <label htmlFor="engineering" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer     peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-100 ">
                                                 Engineering
                                             </label>
                                         </li>
                                         <li>
                                             <input type="checkbox" id="law" value="" className="hidden peer" required="" />
-                                            <label htmlFor="law" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer    hover:text-gray-600  peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-50 ">
+                                            <label htmlFor="law" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer    peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-100 ">
                                                 Law
                                             </label>
                                         </li>
                                         <li>
                                             <input type="checkbox" id="business" value="" className="hidden peer" required="" />
-                                            <label htmlFor="business" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer    hover:text-gray-600  peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-50 ">
+                                            <label htmlFor="business" className="flex items-center w-full py-1 px-3 text-gray-800  rounded-md cursor-pointer    peer-checked:text-gray-100 peer-checked:bg-[#ec6b25] hover:bg-gray-100 ">
                                                 Business
                                             </label>
                                         </li>
